@@ -1,0 +1,137 @@
+# Super AI Content Generator – Spanish (Spain) translation
+# Copyright (C) 2026 Super AI Content Generator
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Super AI Content Generator 1.4.0\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-03-22 09:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: super-ai-content-generator\n"
+"X-Generator: Poedit 3.9\n"
+
+# --- Admin menu / page title ---
+msgid "Super AI Content Generator"
+msgstr "Super AI Content Generator"
+
+# --- Settings page: API & Model ---
+msgid "Super AI Content Generator — Settings"
+msgstr "Super AI Content Generator — Ajustes"
+
+msgid "API & Model"
+msgstr "API y Modelo"
+
+msgid "Groq API Key"
+msgstr "API Key de Groq"
+
+msgid "Get your free API Key at https://console.groq.com/keys"
+msgstr "Obtén tu API Key gratuita en https://console.groq.com/keys"
+
+msgid "AI Model"
+msgstr "Modelo de IA"
+
+msgid "Llama 3.3 70B (recommended, most capable)"
+msgstr "Llama 3.3 70B (recomendado, muy capaz)"
+
+msgid "Llama 3.1 8B (fast and lightweight)"
+msgstr "Llama 3.1 8B (rápido y ligero)"
+
+msgid "Mixtral 8x7B (good quality)"
+msgstr "Mixtral 8x7B (buena calidad)"
+
+msgid "Gemma 2 9B (by Google, compact)"
+msgstr "Gemma 2 9B (de Google, compacto)"
+
+msgid "All models are free on Groq. Llama 3.3 70B offers the best quality."
+msgstr "Todos los modelos son gratuitos en Groq. Llama 3.3 70B ofrece la mejor calidad."
+
+# --- Settings page: Prompts ---
+msgid "Prompts by post type"
+msgstr "Prompts por tipo de contenido"
+
+msgid "Configure a prompt for each post type. Leave a field empty to hide the generation button for that type."
+msgstr "Configura un prompt para cada tipo de contenido. Deja el campo vacío para ocultar el botón de generación en ese tipo."
+
+msgid "Use %s where you want the post title to be inserted."
+msgstr "Usa %s donde quieras que se inserte el título."
+
+msgid "Leave empty to disable the button for this post type."
+msgstr "Deja vacío para desactivar el botón en este tipo de contenido."
+
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+# --- PHP: AJAX error messages ---
+msgid "You do not have sufficient permissions."
+msgstr "No tienes permisos suficientes."
+
+msgid "The title is empty."
+msgstr "El título está vacío."
+
+msgid "Could not determine the post type."
+msgstr "No se pudo determinar el tipo de contenido."
+
+msgid "This post type does not support content generation."
+msgstr "Este tipo de contenido no admite la generación de contenido."
+
+msgid "No prompt configured for this post type."
+msgstr "No hay ningún prompt configurado para este tipo de contenido."
+
+msgid "Groq API Key is not configured. Go to Settings → Content Generator."
+msgstr "No se ha configurado la API Key de Groq. Ve a Ajustes → Content Generator."
+
+# translators: %s: error message from WordPress HTTP API
+msgid "Connection error: %s"
+msgstr "Error de conexión: %s"
+
+msgid "Unknown API error."
+msgstr "Error desconocido de la API."
+
+# translators: 1: HTTP status code, 2: error message from Groq
+msgid "Groq (%1$s): %2$s"
+msgstr "Groq (%1$s): %2$s"
+
+msgid "The API returned no content."
+msgstr "La API no devolvió contenido."
+
+# --- PHP: prompt suffix sent to the AI ---
+msgid ". Reply directly with the content in HTML format using p, h2, h3, strong, em, ul and li tags. Do not use html, head or body tags. Do not include code blocks or backticks."
+msgstr ". Responde directamente con el contenido en formato HTML usando etiquetas p, h2, h3, strong, em, ul y li. No uses etiquetas html, head ni body. No incluyas bloques de código ni backticks."
+
+# --- JS shared (via wp_localize_script) ---
+msgid "Connecting to Groq to generate content…"
+msgstr "Conectando con Groq para generar contenido…"
+
+msgid "Content generated successfully."
+msgstr "Contenido generado correctamente."
+
+msgid "Unknown error."
+msgstr "Error desconocido."
+
+msgid "Error processing the response."
+msgstr "Error al procesar la respuesta."
+
+msgid "Connection error."
+msgstr "Error de conexión."
+
+msgid "Generating…"
+msgstr "Generando…"
+
+msgid "Generate content with AI"
+msgstr "Generar contenido con IA"
+
+msgid "This post already has content. Do you want to replace it?"
+msgstr "El post ya tiene contenido. ¿Quieres reemplazarlo?"
+
+# --- JS classic editor ---
+msgid "Please write a title before generating content."
+msgstr "Por favor, escribe un título antes de generar contenido."
+
+# --- JS Gutenberg panel ---
+msgid "✨ AI Content Generator"
+msgstr "✨ Genera contenido con IA"

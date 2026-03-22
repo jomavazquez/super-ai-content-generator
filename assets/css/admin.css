@@ -1,0 +1,47 @@
+/* ============================================================
+   AI Content Generator — Admin Styles
+   ============================================================ */
+
+/* -- Main button (classic editor) -- */
+.cg-btn {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 6px;
+    margin: 10px 0;
+}
+
+#cg-generate-btn {
+    margin-top: 10px;
+}
+
+.cg-btn__star-small {
+    margin-left: -10px;
+    margin-top: -8px;
+}
+
+/* -- Notifications (classic editor) -- */
+.cg-notice {
+    padding: 12px 16px;
+    margin: 10px 0;
+    border-left: 4px solid;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.cg-notice--success {
+    border-color: #00a32a;
+    background: #edfaef;
+    color: #00a32a;
+}
+
+.cg-notice--error {
+    border-color: #d63638;
+    background: #fce4e4;
+    color: #d63638;
+}
+
+.cg-notice--info {
+    border-color: #2271b1;
+    background: #e7f3ff;
+    color: #2271b1;
+}

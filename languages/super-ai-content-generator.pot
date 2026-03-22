@@ -1,0 +1,134 @@
+# Super AI Content Generator – Translation template
+# Copyright (C) 2026 AI Content Generator
+# This file is distributed under the same license as the plugin.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Content Generator 1.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: super-ai-content-generator\n"
+
+# --- Admin menu / page title ---
+msgid "Super AI Content Generator"
+msgstr ""
+
+# --- Settings page: API & Model ---
+msgid "Super AI Content Generator — Settings"
+msgstr ""
+
+msgid "API & Model"
+msgstr ""
+
+msgid "Groq API Key"
+msgstr ""
+
+msgid "Get your free API Key at https://console.groq.com/keys"
+msgstr ""
+
+msgid "AI Model"
+msgstr ""
+
+msgid "Llama 3.3 70B (recommended, most capable)"
+msgstr ""
+
+msgid "Llama 3.1 8B (fast and lightweight)"
+msgstr ""
+
+msgid "Mixtral 8x7B (good quality)"
+msgstr ""
+
+msgid "Gemma 2 9B (by Google, compact)"
+msgstr ""
+
+msgid "All models are free on Groq. Llama 3.3 70B offers the best quality."
+msgstr ""
+
+# --- Settings page: Prompts ---
+msgid "Prompts by post type"
+msgstr ""
+
+msgid "Configure a prompt for each post type. Leave a field empty to hide the generation button for that type."
+msgstr ""
+
+msgid "Use %s where you want the post title to be inserted."
+msgstr ""
+
+msgid "Leave empty to disable the button for this post type."
+msgstr ""
+
+msgid "Save changes"
+msgstr ""
+
+# --- PHP: AJAX error messages ---
+msgid "You do not have sufficient permissions."
+msgstr ""
+
+msgid "The title is empty."
+msgstr ""
+
+msgid "Could not determine the post type."
+msgstr ""
+
+msgid "This post type does not support content generation."
+msgstr ""
+
+msgid "No prompt configured for this post type."
+msgstr ""
+
+msgid "Groq API Key is not configured. Go to Settings → Content Generator."
+msgstr ""
+
+# translators: %s: error message from WordPress HTTP API
+msgid "Connection error: %s"
+msgstr ""
+
+msgid "Unknown API error."
+msgstr ""
+
+# translators: 1: HTTP status code, 2: error message from Groq
+msgid "Groq (%1$s): %2$s"
+msgstr ""
+
+msgid "The API returned no content."
+msgstr ""
+
+# --- PHP: prompt suffix sent to the AI ---
+msgid ". Reply directly with the content in HTML format using p, h2, h3, strong, em, ul and li tags. Do not use html, head or body tags. Do not include code blocks or backticks."
+msgstr ""
+
+# --- JS shared (via wp_localize_script) ---
+msgid "Connecting to Groq to generate content…"
+msgstr ""
+
+msgid "Content generated successfully."
+msgstr ""
+
+msgid "Unknown error."
+msgstr ""
+
+msgid "Error processing the response."
+msgstr ""
+
+msgid "Connection error."
+msgstr ""
+
+msgid "Generating…"
+msgstr ""
+
+msgid "Generate content with AI"
+msgstr ""
+
+msgid "This post already has content. Do you want to replace it?"
+msgstr ""
+
+# --- JS classic editor ---
+msgid "Please write a title before generating content."
+msgstr ""
+
+# --- JS Gutenberg panel ---
+msgid "✨ AI Content Generator"
+msgstr ""
