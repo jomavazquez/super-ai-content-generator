@@ -41,10 +41,10 @@ Just write a post title, click the **"Generate content with AI"** button, and th
 1. Download or clone this repository into your `wp-content/plugins/` directory:
    ```bash
    cd wp-content/plugins
-   git clone https://github.com/jomavazquez/ai-content-generator.git
+   git clone https://github.com/jomavazquez/super-ai-content-generator.git
    ```
 2. Activate the plugin from **Plugins → Installed Plugins** in your WordPress admin.
-3. Go to **Settings → AI Content Generator** and enter your Groq API key.
+3. Go to **Settings → Super AI Content Generator** and enter your Groq API key.
 4. Configure a prompt for each post type you want to use.
 
 ---
@@ -53,7 +53,7 @@ Just write a post title, click the **"Generate content with AI"** button, and th
 
 ### API Key & Model
 
-Go to **Settings → AI Content Generator**:
+Go to **Settings → Super AI Content Generator**:
 
 | Field | Description |
 |---|---|
@@ -101,24 +101,24 @@ All models are free on Groq:
 ## File Structure
 
 ```
-ai-content-generator/
-├── ai-content-generator.php   # Main plugin file
+super-ai-content-generator/
+├── super-ai-content-generator.php           # Main plugin file
 ├── includes/
-│   ├── class-settings.php     # Settings registration and admin menu
-│   ├── class-assets.php       # Script/style enqueuing and editor detection
-│   └── class-ajax.php         # AJAX handler and Groq API call
+│   ├── class-settings.php                   # Settings registration and admin menu
+│   ├── class-assets.php                     # Script/style enqueuing and editor detection
+│   └── class-ajax.php                       # AJAX handler and Groq API call
 ├── admin/
 │   └── views/
-│       └── settings-page.php  # Settings page template
+│       └── settings-page.php                # Settings page template
 ├── assets/
 │   ├── css/
-│   │   └── admin.css          # Admin styles
+│   │   └── admin.css                        # Admin styles
 │   └── js/
-│       ├── classic-editor.js   # Classic editor / WP Bakery integration
-│       └── gutenberg-editor.js # Gutenberg block editor integration
+│       ├── classic-editor.js                # Classic editor / WP Bakery integration
+│       └── gutenberg-editor.js              # Gutenberg block editor integration
 └── languages/
-    ├── content-generator.pot          # Translation template
-    └── content-generator-es_ES.po     # Spanish translation
+    ├── super-ai-content-generator.pot       # Translation template
+    └── super-ai-content-generator-es_ES.po  # Spanish translation
 ```
 
 ---
@@ -130,10 +130,10 @@ The plugin is fully translatable. A Spanish (`es_ES`) translation is included.
 To compile the `.po` file into a `.mo` file:
 
 ```bash
-wp i18n make-mo languages/content-generator-es_ES.po
+wp i18n make-mo languages/super-ai-content-generator-es_ES.po
 ```
 
-To add a new language, copy the `.pot` file, translate the `msgstr` fields, and save it as `content-generator-{locale}.po` in the `languages/` folder.
+To add a new language, copy the `.pot` file, translate the `msgstr` fields, and save it as `super-ai-content-generator-{locale}.po` in the `languages/` folder.
 
 ---
 
